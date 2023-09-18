@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gang';
+    scrollbar-color: #3F3129;
+    background-size: cover;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   }
+@font-face {
+    font-family: 'Butcherman';
+    src: url(fonts/Butcherman-Regular.ttf);
+}
+mark{
+    background-color: var(--brown);
+}
+:root{
+--green: #5A965A;
+}
+.container{
+    background-image: url(images/shibi-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    height: 525vh;
+    display: grid;  
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.25fr;
+    grid-template-areas: 
+    "intro"
+    "about"
+    "tokenomics"
+    "roadmap"
+    "joinus"
+    "footer";
+    background-color: #3F3129;
+    background-image: url(images/immortalpepe-bg.png);
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    grid-area: intro;
+}
+
+.buybtn-chartbtn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25%;
+    width: 100%;
+    height: 35%;
+}
+.buybtn-container{
+    cursor: pointer;
+    width: 35%;
+    height: 100%;
+    background-image: url(images/buy-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 93%;
+    text-align: center;
+    text-align: center;
+}
+.buybtn-container:hover {
+    background-size: 98%;
+}
+.chartbtn-container{
+    cursor: pointer;
+    width: 35%;
+    height: 100%;  
+    background-image: url(images/chart-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 68%;  
+}
+.chartbtn-container:hover{
+    background-size: 72%;
+}
+.audio-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 40%;
+    height: 30%;
+    background-image: url(images/audio-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 83%;
+}
+.audio{
+    margin-top: 5%;
+}
+.contractbtn-container:hover{
+    background-size: 88%;
+}
+.contract-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 20%;
+}
+.contract-img-container{
+    width: 100%;
+    height: 40%;
+    background-image: url(images/ca-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+#about{
+    grid-area: about;
+}
+#roadmap{
+    grid-area: roadmap;
+}
+#tokenomics{
+    grid-area: tokenomics;
+}
+#joinus{
+    grid-area: joinus;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    grid-area: footer;
+}
+.end-container{
+    width: 70%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+
+}
+.end-nav{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: white;
+    font-family: 'Butcherman';
+}
+p:hover{
+    color: #5A965A;
+}
+.end-socials-arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    gap: 5%;
+}
+.end-socials{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.tg-img{
+    width: 16%;
+    height: 65%;
+    background-image: url(images/tg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tg-img:hover{
+    background-image: url(images/tg-after.png);
+}
+.tw-img{
+    width: 16%;
+    height:65%;
+    background-image: url(images/tw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tw-img:hover{
+    background-image: url(images/tw-after.png);
+}
+.end-arrow{
+    width: 10%;
+    height: 100%;
+    background-image: url(images/arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.end-arrow:hover{
+    background-image: url(images/arrow-after.png);
+}
+
